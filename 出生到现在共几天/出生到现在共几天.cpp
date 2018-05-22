@@ -47,7 +47,7 @@ int main()
 		{
 			sum = sum + e_day;
 		}
-		printf("已经存在了%d天", sum);
+		cout << "您已经存在了" << sum << "天" << endl;
 	}
 	else
 	{
@@ -111,7 +111,7 @@ int main()
 				sum = sum + e_day;
 			}
 		}
-		printf("已经存在了%d天", sum);
+		cout<<"您已经存在了"<<sum<<"天" <<endl;
 	}
     return 0;
 }
